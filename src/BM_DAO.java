@@ -1,4 +1,3 @@
-package bmProject;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.sql.Connection;
