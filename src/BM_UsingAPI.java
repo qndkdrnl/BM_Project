@@ -40,7 +40,7 @@ public class BM_UsingAPI extends BM_InfoValue {
 		try {
 			HttpURLConnection conn=(HttpURLConnection)new URL(query.toString()).openConnection();
 			conn.setRequestMethod("GET");
-			conn.setRequestProperty("Authorization", "KakaoAK b20d1e45ed8bbb7b34b76193b6de3e19");
+			conn.setRequestProperty("Authorization", "KakaoAK (Kakao Rest API KEY)");
 			responseCode = conn.getResponseCode();
 			BufferedReader br;
 			if (responseCode == 200) { // 정상 호출
